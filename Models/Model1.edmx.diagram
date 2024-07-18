@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31d59b67a314448cb359a803118f534a" Name="Diagram1">
+        <EntityTypeShape EntityType="PruebaBluesoftModel.Clientes" Width="1.5" PointX="0.75" PointY="5.25" />
+        <EntityTypeShape EntityType="PruebaBluesoftModel.Cuentas" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="PruebaBluesoftModel.TiposCuenta" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="PruebaBluesoftModel.Transacciones" Width="1.5" PointX="5.25" PointY="1.125" />
+        <AssociationConnector Association="PruebaBluesoftModel.FK_Cuentas_Clientes" />
+        <AssociationConnector Association="PruebaBluesoftModel.FK_Cuentas_TiposCuenta" />
+        <AssociationConnector Association="PruebaBluesoftModel.FK_Transacciones_Cuentas" />
+        <EntityTypeShape EntityType="PruebaBluesoftModel.ClienteReporte" Width="1.5" PointX="3.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
